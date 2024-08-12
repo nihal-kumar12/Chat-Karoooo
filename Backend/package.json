@@ -1,12 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "private":"true",
   "description": "ChatApp",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "eject": "react-scripts eject"
+   
   },
   "keywords": [
     "MERN"
