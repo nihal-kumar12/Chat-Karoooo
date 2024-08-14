@@ -8,7 +8,7 @@ export default defineConfig({
     port: 4001,
     proxy: {
       "/api": {
-        target: 'http://localhost:4005',
+        target: 'https://chat-karoo.onrender.com',
         changeOrigin: true,
       },
     },
